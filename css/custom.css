@@ -59,3 +59,53 @@ blockquote {
   border-left: 4px solid var(--theme-color);
   background-color: rgba(98, 0, 238, 0.05);
 }
+
+/* 美化头像 */
+.site-author-image {
+  border: 2px solid white;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+  max-width: 120px;
+  margin: 0 auto 10px;
+  display: block;
+}
+
+.site-author-image:hover {
+  transform: scale(1.05);
+}
+
+.site-author-name {
+  margin: 0;
+  font-size: 1.2em;
+  color: var(--theme-color);
+  font-weight: bold;
+  text-align: center;
+}
+
+.site-description {
+  font-size: 0.9em;
+  color: #666;
+  font-style: italic;
+  margin: 5px 0 15px;
+  text-align: center;
+}
+
+/* 美化社交图标 */
+.links-of-author {
+  margin-top: 15px;
+}
+
+.links-of-author-item {
+  margin: 5px 10px;
+}
+
+.links-of-author-item a {
+  border-radius: 50%;
+  background-color: rgba(98, 0, 238, 0.1);
+  transition: background-color 0.3s;
+}
+
+.links-of-author-item a:hover {
+  background-color: rgba(98, 0, 238, 0.2);
+}
